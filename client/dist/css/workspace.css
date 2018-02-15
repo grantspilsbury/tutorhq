@@ -24,7 +24,7 @@
   vertical-align: top;
 }
 #localVideo,
-#remoteVideos video {
+#remoteVideos {
   width: 100%;
 }
 .ui.celled.grid>.row>.column,
