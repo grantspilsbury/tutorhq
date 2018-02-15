@@ -10,14 +10,14 @@
   },
   "rooms": {
     "/* maxClients */": "/* maximum number of clients per room. 0 = no limit */",
-    "maxClients": 4
+    "maxClients": 0
   },
   "xirsys": {
     "gateway": "global.xirsys.net",
     "info": {
-      "ident": "",
-      "secret": "",
-      "channel": ""
+      "ident": "grantspilsbury",
+      "secret": "8fbfd768-0c57-11e8-80c1-a8b65102d1f6",
+      "channel": "tutorhq"
     }
   },
   "stunservers": [
