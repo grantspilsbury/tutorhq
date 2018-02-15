@@ -143,7 +143,7 @@ class Workspace extends Component {
     var audioBtnText = this.state.muted ? 'Unmute' : 'Mute';
     this.startVideo();
     return (
-      <Grid celled padded style={{height: '100vh', 'backgroundColor': '#4682B4'}}>
+      <Grid celled padded style={{height: '100vh', 'backgroundColor': '#5BC8AC'}}>
         <Grid.Row style={{height: '100%'}}>
           <Grid.Column width={11}>
             <Grid.Row style={{height: '65%', 'backgroundColor': 'white'}}>
@@ -187,7 +187,7 @@ class Workspace extends Component {
               </Grid>
             </Grid.Row>
           </Grid.Column>
-          <Grid.Column width={5} style={{'backgroundColor': '#4682B4'}}>
+          <Grid.Column width={5} style={{'backgroundColor': '#5BC8AC'}}>
             <Editor
               socket={this.socket}
               channelId={this.state.channelId}
