@@ -1,4 +1,5 @@
 var http = require('http');
+var path = require('path');
 var socketIO = require('socket.io');
 var app = require('./app');
 var bookingCtrl = require('../database/controllers/bookingController.js');
